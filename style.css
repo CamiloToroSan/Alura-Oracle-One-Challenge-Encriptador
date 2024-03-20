@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Estilos generales */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #6879cf;
+    background-image: url(/img/code.png);
+    background-repeat: no-repeat; 
+}
+
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+
+p{
+font-family: Inter;
+font-size: 11px;
+font-weight: 500;
+line-height: 39px;
+text-align: left;
+font-weight: bold;
+}
+
+
+.logo {
+    max-width: 500px;
+    margin-top: 5%;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+
+/* Estilos para la primera sección */
+.primeraSeccion {
+    flex: 1;
+    margin-right: 20px;
+    max-width: 400px;
+}
+
+
+.contenedorCajaTexto {
+    margin-bottom: 20px;
+    border: none;
+    color: #0056b3;
+}
+
+
+textarea {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 940;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    resize: none;
+    color: rgb(97, 18, 66);
+    opacity: 0.8; 
+    text-align: center;
+}
+
+.textoEncriptado {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 940;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    resize: none;
+    color: rgb(97, 18, 66);
+    opacity: 0.8;
+    text-align: center;
+}
+
+
+.advertenciaMayusculas {
+    display: flex;
+    align-items: center;
+}
+
+
+.advertenciaMayusculas img {
+    margin-right: 2px;
+    margin-left: 90px;
+}
+
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.btnencriptar, .btndesencriptar {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.btnencriptar:hover, .btndesencriptar:hover {
+    background-color: #0056b3;
+}
+
+
+/* Estilos para la segunda sección */
+.segundaSeccion {
+    flex: 1;
+    max-width: 400px;
+    background-repeat: no-repeat; 
+    background-size: contain; 
+    background-position: bottom; 
+    margin-bottom: 0px;
+    padding: 90px 30px;
+    color: #007bff;   
+}
+
+
+.botonSeccionDos {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.btnCopiar {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+
+.btnCopiar:hover {
+    background-color: #0056b3;
+}
+
+
+.muniecoDiseño img {
+    animation-name: bounce;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes bounce {
+    from {
+        transform: translateY(12);
+    }
+    to {
+        transform: translateY(-6px);
+    }
+}
